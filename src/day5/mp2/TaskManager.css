@@ -1,0 +1,30 @@
+.task-card {
+  width: 350px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff7f4;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
+
+.task-title {
+  text-align: center;
+  color: #d35400;
+  margin-bottom: 12px;
+}
+
+.task-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-item {
+  margin: 8px 0;
+  font-size: 16px;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}

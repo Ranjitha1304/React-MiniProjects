@@ -1,0 +1,33 @@
+.student-card {
+  width: 350px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #f4f9ff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
+
+.student-title {
+  text-align: center;
+  color: #2a5d9f;
+  margin-bottom: 12px;
+}
+
+.student-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.student-item {
+  padding: 8px;
+  margin: 6px 0;
+  font-size: 16px;
+  border-radius: 6px;
+}
+
+.highlight {
+  background-color: #a2f3a2;
+  font-weight: bold;
+}
+
