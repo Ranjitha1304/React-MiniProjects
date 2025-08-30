@@ -1,0 +1,45 @@
+.movie-card {
+  width: 220px;
+  border-radius: 12px;
+  padding: 12px;
+  margin: 12px;
+  background: #222;
+  color: white;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.5);
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.movie-poster {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.trending {
+  font-size: 18px;
+  margin-left: 5px;
+}
+
+.footer {
+  margin-top: 10px;
+}
+
+.watch-btn {
+  background: #ff4747;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.watch-btn:hover {
+  background: #e43e3e;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
