@@ -1,5 +1,10 @@
 
 import ProductCard from "./ProductCard";
+import product1 from "../../assets/smartphone.jpg";
+import product2 from "../../assets/laptop.jpg";
+import product3 from "../../assets/headphn.webp";
+import product4 from "../../assets/watch.webp";
+
 
 const ProductList = () => {
   const products = [
@@ -8,27 +13,27 @@ const ProductList = () => {
       price: 25000,
       isAvailable: true,
       discount: 10,
-      image: "/src/assets/smartphone.jpg",
+      image: product1,
     },
     {
       title: "Laptop",
       price: 60000,
       isAvailable: false, // ❌ will show Out of Stock
-      image: "/src/assets/laptop.jpg",
+      image: product2,
     },
     {
       title: "Headphones",
       price: 2000,
       isAvailable: true,
       discount: 5,
-      image: "/src/assets/headphn.webp",
+      image: product3,
     },
     {
       title: "Smartwatch",
       price: 5000,
       isAvailable: true,
       // no discount → will use default 0
-      image: "/src/assets/watch.webp",
+      image: product4,
     },
   ];
 
