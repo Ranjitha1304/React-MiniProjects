@@ -9,7 +9,6 @@ const AutoCounter = () => {
       setCount((prevCount) => prevCount + 1);
     }, 1000);
 
-    // Cleanup to avoid memory leaks
     return () => clearInterval(interval);
   }, []);
 
